@@ -143,9 +143,3 @@ class Person:
 
     def __str__(self):
         return f"Name: {self.name}, Age: {self.age}, Gender: {self.gender}, Occupation: {self.occupation}, Religion: {self.religion}, Education: {self.education}, Hobbies: {self.hobbies}, Social Class: {self.social_class}, Health: {self.health}, Relationship Status: {self.relationship_status}, Goals: {self.goals}, Location: {self.location}"
-
-
-# Example usage:
-person1 = Person(age=30)
-person2 = Person()
-print(person2)
